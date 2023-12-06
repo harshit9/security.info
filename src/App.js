@@ -10,16 +10,16 @@ import Governance from './Components/Governance'
 const App = () => {
   return (
 
-      <div className="flex flex-row h-[100vh] w-[400px]">
+      <div className="text-white/[.90] bg-[#05010D] flex flex-row h-[100vh] w-full">
         <LeftNavbar />
 
         <Routes>
-          <Route exact path="/" component={<Overview />} />
-          <Route path="/assets" component={<Assets />} />
-          <Route path="/validators" component={<Validators />} />
-          <Route path="/atom_economic_zone" component={<Atom_Economic_Zone />} />
-          <Route path="/governance" component={<Governance />} />
-          </Routes>
+          <Route exact path="/" element =<Overview /> />
+          <Route path="/assets" element=<Assets /> />
+          <Route path="/validators" element=<Validators /> />
+          <Route path="/atom_economic_zone" element=<Atom_Economic_Zone /> />
+          <Route path="/governance" element=<Governance /> />
+        </Routes>
       </div>
   );
 };

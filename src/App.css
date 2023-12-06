@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.harshit{
-  background-color: #000000;
+.active{
+  border-radius: 5px;
+  background: #BC3D70;
 }
 
 .App-logo {
