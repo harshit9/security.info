@@ -6,7 +6,7 @@ const LeftNavbar = () => {
   return (
     // TO DO: Add icons to routes and security
 
-    <div className='flex flex-col gap-[347px] w-[288px] py-[40px] px-[24px] justify-between border-r-[1px] border-white/[.30]'>
+    <div className='flex flex-col w-[288px] py-[40px] px-[24px] justify-between border-r-[1px] border-white/[.30] h-screen'>
       {/* Top box */}
       <div className='flex flex-col gap-[30px] items-start'> 
         {/* Shared_security */}

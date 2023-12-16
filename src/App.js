@@ -10,8 +10,9 @@ import Governance from './Components/Governance'
 const App = () => {
   return (
 
-      <div className="text-white/[.90] bg-[#05010D] flex flex-row h-[100vh] w-full">
+      <div className="text-white/[.90] bg-[#05010D] flex flex-row min-h-screen w-full">
         <LeftNavbar />
+
 
         <Routes>
           <Route exact path="/" element =<Overview /> />
