@@ -1,6 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./LeftNavbar.css";
+import assests_icon from "../Icons/Assets.svg"
+import atom_icon from "../Icons/Atom.svg"
+import governance_icon from "../Icons/Governance.svg"
+import overview_icon from "../Icons/Overview.svg"
+import site_logo from "../Icons/Siteicon.png"
+import validators_icon from "../Icons/Validators.svg"
 
 const LeftNavbar = () => {
   return (
@@ -10,8 +16,8 @@ const LeftNavbar = () => {
       {/* Top box */}
       <div className='flex flex-col gap-[30px] items-start'> 
         {/* Shared_security */}
-        <div>
-          shared_security
+        <div className="flex items-center text-white/[0.90] text-[20px]">
+          <img src={site_logo} alt="" className='w-[40px] h-[40px]'/><span className='mt-[4px]'>shared_security</span>
         </div>
 
         {/* horizontal line */}
@@ -20,20 +26,20 @@ const LeftNavbar = () => {
 
         {/* 5 routes */}
         <div className="flex flex-col gap-4 bg-[#05010D] justify-start grow self-stretch">
-          <NavLink exact to="/" activeClassName="active" className=' px-[20px] py-[10px]'>
-            Overview
+          <NavLink exact to="/" activeClassName="active" className=' px-[20px] py-[10px] flex items-center gap-[10px]'>
+            <img src={overview_icon} alt="" />Overview
           </NavLink>
-          <NavLink to="/atom_economic_zone" activeClassName="active" className=' px-[20px] py-[10px]'>
-            Atom Economic Zone
+          <NavLink to="/atom_economic_zone" activeClassName="active" className=' px-[20px] py-[10px] flex items-center gap-[10px]'>
+            <img src={atom_icon} alt="" />Atom Economic Zone
           </NavLink>
-          <NavLink to="/governance" activeClassName="active" className=' px-[20px] py-[10px]'>
-            Governance
+          <NavLink to="/governance" activeClassName="active" className=' px-[20px] py-[10px] flex items-center gap-[10px]'>
+            <img src={governance_icon} alt="" />Governance
           </NavLink>
-          <NavLink to="/assets" activeClassName="active" className=' px-[20px] py-[10px]'>
-            Assets
+          <NavLink to="/assets" activeClassName="active" className=' px-[20px] py-[10px] flex items-center gap-[10px]'>
+            <img src={assests_icon} alt="" />Assets
           </NavLink>
-          <NavLink to="/validators" activeClassName="active" className=' px-[20px] py-[10px]'>
-            Validators
+          <NavLink to="/validators" activeClassName="active" className=' px-[20px] py-[10px] flex items-center gap-[10px]'>
+            <img src={validators_icon} alt="" />Validators
           </NavLink>
         </div>
       </div>

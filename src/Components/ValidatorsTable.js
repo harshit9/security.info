@@ -1,6 +1,7 @@
 import React from 'react';
 
 // TO DO - Style the table
+// add further subarray in Validating and styles validating column items
 
 const ValidatorsTable = () => {
   const data = [
@@ -42,7 +43,7 @@ const ValidatorsTable = () => {
           {data.map((item, index) => (
             <tr key={index} className=''>
               <td className="h-[50px]"><div className='flex relative'><span className='mr-[40px]'>|</span>
-              <div className='w-[17px] h-[17px] bg-gray-400 rounded-full mr-[5px] absolute top-[3px] left-[22px]'/>
+              <div className='w-[17px] h-[17px] bg-gray-400 rounded-full mr-[5px] absolute top-[2px] left-[22px]'/>
               {item.Validator}</div></td>
               <td className="h-[50px]"><span className='mr-[20px]'>|</span>{item.Validating}</td>
               <td className="h-[50px]"><span className='mr-[20px]'>|</span>{item.VP}</td>
