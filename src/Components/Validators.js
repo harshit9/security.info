@@ -29,23 +29,23 @@ const Validators = () => {
 
           {/* 5 blocks div */}
           <div className='flex justify-evenly gap-[20px] mt-[20px]'>
-            <div className='flex py-[20px] px-[40px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
+            <div className='flex py-[20px] px-[10px] pr-[25px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
               <p className='text-white/[0.40] text-[14px] font-normal'>Active Validators</p>
               <p className='text-white/[0.90] text-[24px] font-normal'>175</p>
             </div>
-            <div className='flex py-[20px] px-[40px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
+            <div className='flex py-[20px] px-[10px] pr-[25px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
               <p className='text-white/[0.40] text-[14px] font-normal'>Allocated</p>
               <p className='text-white/[0.90] text-[24px] font-normal'>536</p>
             </div>
-            <div className='flex py-[20px] px-[40px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
+            <div className='flex py-[20px] px-[10px] pr-[25px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
               <p className='text-white/[0.40] text-[14px] font-normal'>APY</p>
               <p className='text-white/[0.90] text-[24px] font-normal'>3.13%</p>
             </div>
-            <div className='flex py-[20px] px-[40px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
+            <div className='flex py-[20px] px-[10px] pr-[25px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
               <p className='text-white/[0.40] text-[14px] font-normal'>Bonded Rate</p>
               <p className='text-white/[0.90] text-[24px] font-normal'>29.09%</p>
             </div>
-            <div className='flex py-[20px] px-[40px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
+            <div className='flex py-[20px] px-[10px] pr-[25px] flex-col justify-center items-end rounded-[10px] bg-white/[0.05] grow'>
               <p className='text-white/[0.40] text-[14px] font-normal'>Average Commision</p>
               <p className='text-white/[0.90] text-[24px] font-normal'>11.03%</p>
             </div>
